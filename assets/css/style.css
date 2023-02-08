@@ -53,6 +53,8 @@ header {
 .result {
     border: 4px solid;
     box-shadow: rgb(60, 255, 0) 1px 0 10px;
+    background-color: #c1e1b536;
+
     margin-left: 17rem;
     margin-right: 17rem;
     margin-top: 2rem;
