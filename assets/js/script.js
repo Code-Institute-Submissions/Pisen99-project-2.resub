@@ -44,6 +44,7 @@ function makeSelection(selection) {
     if (yourWinner) incrementScore(yourScoreSpan);
     if (computerWinner) incrementScore(computerScoreSpan);
 
+    // If either player wins 5 rounds, a pop-up window will show.
     if (computerScoreSpan.innerText == '5') {
         endGamePopup(); 
     }  else if (yourScoreSpan.innerText == '5') {
@@ -96,6 +97,16 @@ function randomSelection() {
     return SELECTIONS[randomIndex];
 }
 
+
+// ------------------- Resets the game when user clicks on reset icon -------------------
+function resetGame() {
+    yourScoreSpan.innerText = 0;
+    computerScoreSpan.innerText = 0;
+    const clears = document.querySelectorAll('.result-selection');
+    clears.forEach(clear => {
+        clear.remove();
+    });
+}
 
 // ------------------- Pop-up feature for Rules button -------------------
 const rulesPopUp = document.getElementById("rules-container");
