@@ -44,6 +44,12 @@ function makeSelection(selection) {
     if (yourWinner) incrementScore(yourScoreSpan);
     if (computerWinner) incrementScore(computerScoreSpan);
 
+    if (computerScoreSpan.innerText == '5') {
+        endGamePopup(); 
+    }  else if (yourScoreSpan.innerText == '5') {
+        endGamePopup();
+    }
+
     // This whill increment the score in span (html)
     function incrementScore(scoreSpan) {
         scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1;
@@ -102,4 +108,16 @@ function popupContainer() {
 // ------------------- closing for Rules button -------------------
 function popupContainerClose() {
     rulesPopUp.style.visibility = "hidden";
+}
+
+
+// ------------------- Pop-up feature for when game is over -------------------
+const endGame = document.getElementById('end-game');
+
+function endGamePopup() {
+    endGame.style.visibility = 'visible';
+}
+
+function endGameClose() {
+    endGame.style.visibility = 'hidden';
 }
