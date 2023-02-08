@@ -28,24 +28,33 @@ selectionButtons.forEach(selectionButton => {
     });
 });
 
+// Added score board functionality 1 or 0 points if you win or lose. Computers selections will randomize.
+function makeSelection(selection) {
+    const computerSelection = randomSelection();
+    const yourWinner = isWinner(selection, computerSelection);
+    const computerWinner = isWinner(computerSelection, selection);
+
+    addSelectionResult(computerSelection, computerWinner);
+    addSelectionResult(selection, yourWinner);
+}
+
+
+// Function checking that "beat" wins over "name"
+function isWinner(selection, opponentSelection) {
+    return selection.beats === opponentSelection.name;
+}
+
 
 /** Creates a function that'll make computer to make random choices
 * @param {randomIndex} - One of "rock", "paper" or "scissor"
 */
-
 function randomSelection() {
     const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
     return SELECTIONS[randomIndex];
 }
 
 
-function makeSelection(selection) {
-    const computerSelection = randomSelection();
-    console.log(computerSelection);
-}
-
-
-// Pop-up feature for Rules button
+// ------------------- Pop-up feature for Rules button -------------------
 const rulesPopUp = document.getElementById("rules-container");
 
 
@@ -53,7 +62,7 @@ function popupContainer() {
     rulesPopUp.style.visibility = "visible";
 }
 
-// closing for Rules button
+// ------------------- closing for Rules button -------------------
 function popupContainerClose() {
     rulesPopUp.style.visibility = "hidden";
 }
