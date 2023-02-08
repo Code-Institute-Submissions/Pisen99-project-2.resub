@@ -48,3 +48,23 @@ header {
 .icons:hover {
     transform: scale(1.1);
 }
+
+/* -------------------------- Score ----------------------- */
+.result {
+    border: 4px solid;
+    box-shadow: rgb(60, 255, 0) 1px 0 10px;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.center-span {
+    text-align: center;
+}
