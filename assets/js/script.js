@@ -59,6 +59,19 @@ function addSelectionResult(selection, player) {
     for (d of previousResultDivs) {
         d.remove();
     }
+
+    /** Declaring variables to make the image icon show for each round
+    * @param {img} - This is used to show image.
+    * @param {div} - This is used to make images show inside the div (under "you" & "computer")
+    */
+    const imgId = selection.image;
+    const img = document.createElement('img');
+    img.src = imgId;
+    const div = document.createElement('div');
+    div.appendChild(img);
+    div.classList.add('result-selection');
+    div.classList.add(player);
+    finalColumn.after(div);
 }
 
 
