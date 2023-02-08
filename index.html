@@ -47,6 +47,34 @@
             <span class="result-score" data-computer-score>0</span>
         </div>
     </section>
+    <!---------------------------- Pop-up for Rules ------------------------>
+    <div id="rules-container">
+        <h3 class="heading-button">How to play</h3>
+        <p>To participate in this game, please press one of these buttons shown down below</p>
+        <ul class="rules-list">
+            <li>
+                <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                <span>Beats</span>
+                <i class="fa-solid fa-hand-scissors select-icon"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-hand select-icon"></i>
+                <span>Beats</span>
+                <i class="fa-solid fa-hand-back-fist select-icon"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-hand-scissors select-icon"></i>
+                <span>Beats</span>
+                <i class="fa-solid fa-hand select-icon"></i>
+            </li>
+            <li>
+                <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                <span>Draw</span>
+                <i class="fa-solid fa-hand-back-fist select-icon"></i>
+            </li>
+        </ul>
+        <button class="heading-button" id="return" onclick="popupContainerClose()" aria-label="Return to the game">Start Playing</button>
+</div>
     <footer>
         <p>Made by <a href="https://github.com/Pisen99" target="_blank">Pisen99</a></p>
     </footer>
