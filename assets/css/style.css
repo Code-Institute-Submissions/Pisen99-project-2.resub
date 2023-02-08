@@ -177,6 +177,21 @@ li {
 
     text-transform: uppercase;
 }
+
+.end-game-button {
+    font-size: 1.5rem;
+    border: 2px solid #c1e1b5;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    color: #c1e1b5;
+}
+
+.end-game-button:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(60, 255, 0) 1px 0 10px;
+    background-color: #c1e1b55f;
+}
 /* -------------------------- Footer ----------------------- */
 footer {
     display: flex;
