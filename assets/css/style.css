@@ -44,3 +44,7 @@ header {
     color: #c1e1b5;
     box-shadow: rgb(60, 255, 0) 1px 0 10px;
 }
+
+.icons:hover {
+    transform: scale(1.1);
+}
