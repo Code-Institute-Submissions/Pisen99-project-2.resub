@@ -108,7 +108,7 @@ header {
     align-items: center;
     justify-content: space-around;
     
-    visibility: visible;
+    visibility: hidden;
 
     position: absolute;
     top: 50%;
