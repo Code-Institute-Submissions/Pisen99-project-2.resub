@@ -13,17 +13,20 @@
 <body>
     <!---------------------------- header ---------------------------->
     <header>
-        <h1><span class="highlight">R</span>ock<span class="highlight">P</span>aper<span class="highlight">S</span>cissor<span class="highlight">+</span></h1>
+        <h1><span class="highlight">R</span>ock<span class="highlight">P</span>aper<span
+                class="highlight">S</span>cissor<span class="highlight">+</span></h1>
     </header>
     <!---------------------------- Rules & Reset-Game ---------------------------->
     <div id="main-options">
         <div class="game-options">
-                <button onclick="popupContainer()" aria-label="Press here to display game rules"><i class="fa-solid fa-book"></i></button>
+            <button onclick="popupContainer()" aria-label="Press here to display game rules"><i
+                    class="fa-solid fa-book"></i></button>
         </div>
         <div class="game-options">
-            <button class="reset" onclick="resetGame()" aria-label="Press here to reset the game"><i class="fa-solid fa-rotate-left"></i></button>
+            <button class="reset" onclick="resetGame()" aria-label="Press here to reset the game"><i
+                    class="fa-solid fa-rotate-left"></i></button>
         </div>
-        </div>
+    </div>
     <!---------------------------- Game Icons ------------------------>
     <div class="game-icons">
         <button class="icons" data-selection="rock">
@@ -49,8 +52,7 @@
     </section>
     <!---------------------------- Pop-up for Rules ------------------------>
     <div id="rules-container">
-        <h3 class="heading-button">How to play</h3>
-        <p>To participate in this game, please press one of these buttons shown down below</p>
+        <h3>How to play</h3>
         <ul class="rules-list">
             <li>
                 <i class="fa-solid fa-hand-back-fist select-icon"></i>
@@ -69,12 +71,13 @@
             </li>
             <li>
                 <i class="fa-solid fa-hand-back-fist select-icon"></i>
-                <span>Draw</span>
+                <span>Draws</span>
                 <i class="fa-solid fa-hand-back-fist select-icon"></i>
             </li>
         </ul>
-        <button class="heading-button" id="return" onclick="popupContainerClose()" aria-label="Return to the game">Start Playing</button>
-</div>
+        <button class="heading-button" id="return" onclick="popupContainerClose()" aria-label="Return to the game">Start
+            Playing</button>
+    </div>
     <footer>
         <p>Made by <a href="https://github.com/Pisen99" target="_blank">Pisen99</a></p>
     </footer>
