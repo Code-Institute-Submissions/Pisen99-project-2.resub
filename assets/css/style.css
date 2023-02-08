@@ -20,6 +20,9 @@ header {
     font-size: 2rem;
 
     font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.highlight {
     text-shadow: rgb(60, 255, 0) 1px 0 10px;
 }
 /* -------------------------- Rules & Reset-Game ----------------------- */
