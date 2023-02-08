@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Permanent+Marker&display=swap');
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Inconsolata', monospace;
+*/
 body {
     background-image: url(/assets/images/b-bamboo.jpeg);
     background-size: cover;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
 }
