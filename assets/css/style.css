@@ -162,7 +162,7 @@ li {
     width: 62vw;
     height: 36vh;
 
-    visibility: visible;
+    visibility: hidden;
 
     position: absolute;
     top: 73%;
