@@ -29,9 +29,21 @@ selectionButtons.forEach(selectionButton => {
 });
 
 
-function makeSelection(selection) {
-    console.log(selection);
+/** Creates a function that'll make computer to make random choices
+* @param {randomIndex} - One of "rock", "paper" or "scissor"
+*/
+
+function randomSelection() {
+    const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
+    return SELECTIONS[randomIndex];
 }
+
+
+function makeSelection(selection) {
+    const computerSelection = randomSelection();
+    console.log(computerSelection);
+}
+
 
 // Pop-up feature for Rules button
 const rulesPopUp = document.getElementById("rules-container");
