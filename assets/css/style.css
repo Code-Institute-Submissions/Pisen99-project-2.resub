@@ -162,30 +162,42 @@ li {
 }
 
 /* -------------------------- End Game ----------------------- */
-/* #end-game {
+.end-modal {
+    visibility: hidden;
+
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(8px);
+
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    overflow: auto;
+}
+
+#end-game {
+    visibility: hidden;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    
-    width: 62vw;
-    height: 36vh;
-
-    visibility: hidden;
+    text-align: center;
 
     position: absolute;
-    top: 73%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    padding: 3rem;
 
     background-color: #1f1f1f;
     border: 4px solid #c1e1b5;
 
-    text-align: center;
-    transition: scale(1.1);
-
     text-transform: uppercase;
-} */
+}
 
 .end-game-button {
     font-size: 1.5rem;
