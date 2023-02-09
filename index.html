@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="https://kit.fontawesome.com/ff7463a330.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>RPS+</title>
 </head>
 
 <body>
-    <!---------------------------- header ---------------------------->
+    <!------------ header ------------>
     <header>
         <h1><span class="highlight">R</span>ock<span class="highlight">P</span>aper<span
                 class="highlight">S</span>cissor<span class="highlight">+</span></h1>
     </header>
-    <!---------------------------- Rules & Reset-Game ---------------------------->
+    <!------------ Rules & Reset-Game ------------>
     <div id="main-options">
         <div class="game-options">
             <button onclick="popupContainer()" aria-label="Press here to display game rules"><i
@@ -27,7 +31,7 @@
                     class="fa-solid fa-rotate-left"></i></button>
         </div>
     </div>
-    <!---------------------------- Game Icons ------------------------>
+    <!------------ Game Icons ------------>
     <div class="game-icons">
         <button class="icons" data-selection="rock">
             <i class="fa-solid fa-hand-back-fist select-icon"></i>
@@ -39,7 +43,7 @@
             <i class="fa-solid fa-hand-scissors select-icon"></i>
         </button>
     </div>
-    <!---------------------------- Score ------------------------>
+    <!------------ Score ------------>
     <section class="result">
         <div class="center-span">
             <h2>You</h2>
@@ -50,7 +54,7 @@
             <span class="result-score" data-computer-score>0</span>
         </div>
     </section>
-    <!---------------------------- Pop-up for Rules ------------------------>
+    <!------------ Pop-up for Rules ------------>
     <div id="rules-modal">
         <div id="rules-container">
             <h3>How to play</h3>
@@ -90,7 +94,7 @@
             </button>
         </div>
     </div>
-    <!------------------------ End Game ------------------------->
+    <!------------ End Game ------------>
     <div id="end-modal">
         <div id="end-game">
             <h2>The match has ended</h2>
