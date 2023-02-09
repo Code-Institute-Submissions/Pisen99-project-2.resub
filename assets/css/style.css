@@ -6,6 +6,7 @@ font-family: 'Mochiy Pop One', sans-serif;
 body {
     background-image: url(/assets/images/b-bamboo.jpeg);
     background-size: cover;
+    background-attachment: fixed;
     color: #c1e1b5;
     font-family: 'Inconsolata', monospace;
 }
