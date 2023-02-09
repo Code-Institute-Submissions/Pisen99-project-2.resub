@@ -51,37 +51,43 @@
         </div>
     </section>
     <!---------------------------- Pop-up for Rules ------------------------>
-    <div id="rules-container">
-        <h3>How to play</h3>
-        <ul class="rules-list">
-            <li>
-                <i class="fa-solid fa-hand-back-fist select-icon"></i>
-                <span>Beats</span>
-                <i class="fa-solid fa-hand-scissors select-icon"></i>
-            </li>
-            <li>
-                <i class="fa-solid fa-hand select-icon"></i>
-                <span>Beats</span>
-                <i class="fa-solid fa-hand-back-fist select-icon"></i>
-            </li>
-            <li>
-                <i class="fa-solid fa-hand-scissors select-icon"></i>
-                <span>Beats</span>
-                <i class="fa-solid fa-hand select-icon"></i>
-            </li>
-            <li>
-                <i class="fa-solid fa-hand-back-fist select-icon"></i>
-                <span>Draws</span>
-                <i class="fa-solid fa-hand-back-fist select-icon"></i>
-            </li>
-        </ul>
-        <button class="heading-button" id="return" onclick="popupContainerClose()" aria-label="Return to the game">Start
-            Playing</button>
+    <div class="rules-modal">
+        <div id="rules-container">
+            <h3>How to play</h3>
+            <ul class="rules-list">
+                <li>
+                    <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                    <span>Beats</span>
+                    <i class="fa-solid fa-hand-scissors select-icon"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-hand select-icon"></i>
+                    <span>Beats</span>
+                    <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-hand-scissors select-icon"></i>
+                    <span>Beats</span>
+                    <i class="fa-solid fa-hand select-icon"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                    <span>Draws</span>
+                    <i class="fa-solid fa-hand-back-fist select-icon"></i>
+                </li>
+            </ul>
+            <button class="heading-button" id="return" onclick="popupContainerClose()"
+                aria-label="Return to the game">Start
+                Playing
+            </button>
+        </div>
     </div>
     <!------------------------ End Game ------------------------->
-    <div id="end-game">
-        <h2>The match has ended</h2>
-        <button class="end-game-button" onclick="endGameClose();resetGame()">X</button>
+    <div class="end-modal">
+        <div id="end-game">
+            <h2>The match has ended</h2>
+            <button class="end-game-button" onclick="endGameClose();resetGame()">X</button>
+        </div>
     </div>
     <footer>
         <p>Made by <a href="https://github.com/Pisen99" target="_blank">Pisen99</a></p>

@@ -153,7 +153,7 @@ li {
 }
 
 /* -------------------------- End Game ----------------------- */
-#end-game {
+/* #end-game {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +176,7 @@ li {
     transition: scale(1.1);
 
     text-transform: uppercase;
-}
+} */
 
 .end-game-button {
     font-size: 1.5rem;
@@ -208,6 +208,7 @@ footer a {
     color: #c1e1b5;
 }
 
+/* -------------------------- Image history (js), size & opacity ----------------------- */
 img {
     width: 10vw;
     height: 17vh;
