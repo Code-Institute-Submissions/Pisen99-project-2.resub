@@ -115,7 +115,7 @@ function popupContainerClose() {
 
 
 // ------------------- Pop-up feature for when game is over -------------------
-const endGame = document.getElementById('end-game');
+const endGame = document.getElementById('end-modal');
 
 function endGamePopup() {
     endGame.style.visibility = 'visible';
