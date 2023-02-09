@@ -101,7 +101,7 @@ function resetGame() {
 }
 
 // ------------------- Pop-up feature for Rules button -------------------
-const rulesPopUp = document.getElementById("rules-container");
+const rulesPopUp = document.getElementById("rules-modal");
 
 
 function popupContainer() {

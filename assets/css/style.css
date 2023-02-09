@@ -102,7 +102,7 @@ header {
     text-align: center;
 }
 /* -------------------------- Pop-up for Rules ----------------------- */
-.rules-modal {
+#rules-modal {
     visibility: hidden;
 
     background-color: rgba(0, 0, 0, 0);
@@ -119,8 +119,6 @@ header {
 }
 
 #rules-container {
-    visibility: hidden;
-
     display: flex;
     flex-direction: column;
     align-items: center;
