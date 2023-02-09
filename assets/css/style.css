@@ -160,7 +160,7 @@ li {
 }
 
 /* -------------------------- End Game ----------------------- */
-.end-modal {
+#end-modal {
     visibility: hidden;
 
     background-color: rgba(0, 0, 0, 0);
