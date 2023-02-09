@@ -288,6 +288,20 @@ img {
     footer a {
         font-size: 1.5rem;
     }
+
+    #rules-container {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #end-game {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+    }
 }
 
 /* -------------------------- MEDIA QUERIES - 320px > 480px ----------------------- */
@@ -338,6 +352,20 @@ img {
     footer a {
         font-size: 1rem;
     }
+
+    #rules-container {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #end-game {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+    }
 }
 
 /* -------------------------- MEDIA QUERIES - 481px > 820px ----------------------- */
@@ -381,5 +409,35 @@ img {
     }
     footer a {
         font-size: 3rem;
+    }
+
+    #rules-container {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+
+        font-size: 2rem;
+    }
+
+    .rules-list {
+        font-size: 2rem;
+    }
+
+    .heading-button {
+        font-size: 2rem;
+    }
+
+    #end-game {
+        width: 97%;
+        height: 99%;
+        justify-content: center;
+        padding: 0;
+
+        font-size: 2rem;
+    }
+
+    .end-game-button {
+        font-size: 2rem;
     }
 }
