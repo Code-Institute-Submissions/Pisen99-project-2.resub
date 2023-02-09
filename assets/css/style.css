@@ -312,6 +312,10 @@ img {
         align-items: center;
     }
 
+    .highlight {
+        text-shadow: none;
+    }
+
     header {
         font-size: .6rem;
         letter-spacing: unset;
