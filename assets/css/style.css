@@ -208,6 +208,11 @@ footer a {
     color: #c1e1b5;
 }
 
+img {
+    width: 10vw;
+    height: 17vh;
+}
+
 .result-selection.false {
     opacity: 0.5;
 }
