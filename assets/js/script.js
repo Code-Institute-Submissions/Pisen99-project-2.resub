@@ -40,7 +40,7 @@ function makeSelection(selection) {
     addSelectionResult(computerSelection, computerWinner);
     addSelectionResult(selection, yourWinner);
 
-    // Created this so score will increase if you win a round
+    // Created this score so it will increase if you win a round
     if (yourWinner) incrementScore(yourScoreSpan);
     if (computerWinner) incrementScore(computerScoreSpan);
 
@@ -59,14 +59,6 @@ function makeSelection(selection) {
 
 
 function addSelectionResult(selection, player) {
-    const previousResultDivs = document.querySelectorAll(
-        `.result-selection.${player}`
-    );
-    
-    for (d of previousResultDivs) {
-        d.remove();
-    }
-
     /** Declaring variables to make the image icon show for each round
     * @param {img} - This is used to show image.
     * @param {div} - This is used to make images show inside the div (under "you" & "computer")
@@ -91,7 +83,6 @@ function isWinner(selection, opponentSelection) {
 /** Creates a function that'll make computer to make random choices
 * @param {randomIndex} - One of "rock", "paper" or "scissor"
 */
-
 function randomSelection() {
     const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
     return SELECTIONS[randomIndex];
