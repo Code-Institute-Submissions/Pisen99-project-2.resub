@@ -70,6 +70,7 @@ function addSelectionResult(selection, player) {
     div.appendChild(img);
     div.classList.add('result-selection');
     div.classList.add(player);
+    if (isWinner) div.classList.add('isWinner')
     finalColumn.after(div);
 }
 
