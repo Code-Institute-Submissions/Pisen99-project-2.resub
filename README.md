@@ -9,6 +9,7 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 * [Features](#excisting-features)
 * [Design](#design)
 * [Technologies used](#technological-used)
+* [Testing](#test-cases)
 * [Validator tests](#validator-test)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -29,7 +30,7 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 ### Game ends when:
 * Whoever reaches five points first will win this game.
 
-![Screenshot](rules)
+![Screenshot](img.rm/rules.png)
 
 
 ## User Experience
@@ -50,14 +51,17 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
     It will be easy to find the buttons right under the logo with a simple yet informative icon.
     The icons will make a smal but noticible change when user hovers over them.
     Once you press the book icon it will appear with the rules for the game and an easy navigation to go back to the game.
-![Screenshot]()
+![Screenshot](img.rm/header.png)
 
 ## f2 Background image
     I wanted to have a background to give the website a more calm approach to it making the user want to stay for longer to play.
 
-## f3 Footer
+## f3 Modules
+    Once the user is taken to the "rules" or "game over" button I put a blur effect around the modules. This to limit the accesability on the website. User does not need to keep playing the game once the game is over for example. To access the websites full potential user must leave the modules first.
+
+## f4 Footer
     I made this for the user to see who made the game. In the footer the name "Pisen99" is highlighted and linked to all the github repositories created by the name. The inspiration for this idea is from [iama3191](https://iama3191.github.io/rock-paper-scissors-lizard-spock/).
-![Screenshot]()
+![Screenshot](img.rm/footer.png)
 
 
 ## Design
@@ -75,11 +79,11 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 
 ### Buttons with Icon
 * Keeping it simple and clean so user can focus mainly on the game. If user is unsure they will easily find the icons easy to accsess and understandeble any time during their game. A simple highlight of the buttons will appear when user hovers over them.
-![Screenshot](icons)
+![Screenshot](img.rm/icons.png)
 
 ### Game history
 * Created game history with a lower opacity so user can see what selection was actually played from "you" and "computer" without it taking over the whole game, easy for the eye. The winner of that round will show easily as the score will increase by one point. If it's a draw then both icons will be at a lower capacity, symbolising that no one got a point from that round.
-![Screenshot](icons history)
+![Screenshot](img.rm/history.png)
 
 ### Typhography
 * For heading and texts "Inconsolata, monospace" is used. It has a sipmle look to it that will work with the rest of the website. To make the logo stand out a little bit I used "Mochiy Pop One, sans-serif", it's bold and easy to read.
@@ -97,6 +101,10 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
       Font Awesome used to get icons for my rules, restart game, combat options buttons.
       Github/Gitpod used to save code, commits and pushes.
 
+
+## Test cases
+
+![Screenshot](img.rm/testing.png)
 
 ## Validator test
       
@@ -136,6 +144,12 @@ First time try, it's a pass
 - Font-type comes from [here](https://fonts.google.com/knowledge)
 
 - Favicon designed from [here](https://favicon.io/favicon-generator/)
+
+### Validator tests
+- HTML is tested [here](https://validator.w3.org/)
+- CSS is tested [here](https://jigsaw.w3.org/css-validator/)
+- JavaScript is tested [here](https://jshint.com/)
+- LightHouse is tested [here](https://pagespeed.web.dev/)
 
 - Used as an inspiration for structure and javascript when making the rules popup:
 [Iama3191](https://iama3191.github.io/rock-paper-scissors-lizard-spock/)
