@@ -130,8 +130,8 @@ First time try, it's a pass
 
 ## Deployment
 
-* The site was created in GitHub pages, these are the steps to deploy:
-  * Log in to GitHub and go to repositories.
+* These are the steps to deploy:
+  * Log in to GitHub and go to the website repository.
   * In GitHub on the right side of the repository click on settings.
   * In settings on the left side menu select "Pages".
   * Under branch, select "Main" and select folder "(Root)"
