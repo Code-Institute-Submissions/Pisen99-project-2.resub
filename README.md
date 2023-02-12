@@ -75,7 +75,7 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 
 ### Background-image
 * I wanted my webpage to have a background that goes well with the color of the icons as well as the text color. The dark background makes the other colors stand out a little more as well.
-![Screenshot](./assets/images/b-bamboo.jpeg)
+![Screenshot](./assets/images/b-bamboo.webp)
 
 ### Buttons with Icon
 * Keeping it simple and clean so user can focus mainly on the game. If user is unsure they will easily find the icons easy to accsess and understandeble any time during their game. A simple highlight of the buttons will appear when user hovers over them.
@@ -119,8 +119,9 @@ First time try, it's a pass.
 ![Screenshot](img.rm/css.png)
 
 ## Lighthouse:
-
-![Screenshot](lighthouse)
+First time try & it's a pass. I choosed to improve it by moving script tag from head to the end of body, improving the "score" by a little bit.
+![Screenshot](img.rm/lh-desktop.png)
+![Screenshot](img.rm/lh-mobile.png)
 
 ## JavaScript:
 First time try, it's a pass
