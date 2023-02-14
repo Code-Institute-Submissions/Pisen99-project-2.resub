@@ -36,12 +36,15 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 ## User Experience
 
 ### A.First Time Visitor Goals
-  a. As a first time visitor, I want to quick and easily understand the game's purpose.
-  b. As a first time visitor, I want to navigate fast and easily on the website to find information about the game.
+   a. As a first time visitor, I want to quick and easily understand the game's purpose.
+
+   b. As a first time visitor, I want to navigate fast and easily on the website to find information about the game.
   
+
 ### B.Returning Visitor Goals
-  a. As a returning visitor, I want to easily navigate through the rules to find out how this game works.
-  b. As a returning visitor, I want to find the buttons easily and take me to the right place.
+   a. As a returning visitor, I want to easily navigate through the rules to find out how this game works.
+
+   b. As a returning visitor, I want to find the buttons easily and take me to the right place.
 
 
 ## Excisting Features
@@ -78,7 +81,7 @@ RockPaperScissor+ is a simple game for all the ages. It's most common to play as
 ![Screenshot](./assets/images/b-bamboo.webp)
 
 ### Buttons with Icon
-* Keeping it simple and clean so user can focus mainly on the game. If user is unsure they will easily find the icons easy to accsess and understandeble any time during their game. A simple highlight of the buttons will appear when user hovers over them.
+* Keeping it simple and clean so user can focus mainly on the game. If user is unsure they will easily find the icons easy to access and understandeble any time during their game. A simple highlight of the buttons will appear when user hovers over them.
 ![Screenshot](img.rm/icons.png)
 
 ### Game history
